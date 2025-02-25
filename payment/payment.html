@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="shortcut icon"
+      href="../car rental images/Home/logo.png"
+      type="image/x-icon"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home-Car Rental Managment</title>
+    <!-- Bootstrap link  css-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link css -->
+    <link rel="stylesheet" href="payment.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <header class="custom_container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="logo">
+            <img src="../car rental images/Home/logo.png" alt="Logo" />
+          </div>
+
+          <div class="center">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="/Home/index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/Vehicals/Vehicals.html"
+                    >Vehicles</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../Details/details.html">Details</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../about/about.html">About us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/Contact Us/Contact Us/Contact.html"
+                    >Contact us</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="">
+            <a class="reg" href="../Registered/Registered.html">
+              <i class="fa-solid fa-user">+</i></a
+            >
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Header ended -->
+
+    <!-- Payment -->
+    <div class=" custom_container d-lg-flex">
+      <div class="box-1 bg-light user">
+        <div class="d-flex align-items-center mb-3">
+          <img
+            src="../car rental images/PICS CARS/10.jpg"
+            class="pic rounded-circle"
+            alt=""
+          />
+          <p class="ps-2 name">Oliur</p>
+        </div>
+        <div class="box-inner-1 pb-3 mb-3">
+          <div class="d-flex justify-content-between mb-3 userdetails">
+            <p class="fw-bold">Rideo ride</p>
+            <p class="fw-lighter">
+              <span class="fas fa-dollar-sign"></span>33.00+
+            </p>
+          </div>
+          <div
+            id="my"
+            class="carousel slide carousel-fade img-details"
+            data-bs-ride="carousel"
+            data-bs-interval="2000"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#my"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#my"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#my"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="../car rental images/PICS CARS/10.jpg"
+                  class="d-block w-100"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../car rental images/PICS CARS/15.jpg"
+                  class="d-block w-100 h-100"
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="../car rental images/PICS CARS/11.jpg"
+                  class="d-block w-100"
+                />
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#my"
+              data-bs-slide="prev"
+            >
+              <div class="icon">
+                <span class="fas fa-arrow-left"></span>
+              </div>
+              <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#my"
+              data-bs-slide="next"
+            >
+              <div class="icon">
+                <span class="fas fa-arrow-right"></span>
+              </div>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <p class="dis info my-3">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate
+            quos ipsa sed officiis odio
+          </p>
+          <div class="radiobtn">
+            <input type="radio" name="box" id="one" />
+            <input type="radio" name="box" id="two" />
+            <input type="radio" name="box" id="three" />
+            <label for="one" class="box py-2 first">
+              <div class="d-flex align-items-start">
+                <span class="circle"></span>
+                <div class="course">
+                  <div
+                    class="d-flex align-items-center justify-content-between mb-2"
+                  >
+                    <span class="fw-bold"> Collection 01 </span>
+                    <span class="fas fa-dollar-sign">29</span>
+                  </div>
+                  <span>10 x Presets. Released in 2018</span>
+                </div>
+              </div>
+            </label>
+            <label for="two" class="box py-2 second">
+              <div class="d-flex">
+                <span class="circle"></span>
+                <div class="course">
+                  <div
+                    class="d-flex align-items-center justify-content-between mb-2"
+                  >
+                    <span class="fw-bold"> Collection 01 </span>
+                    <span class="fas fa-dollar-sign">29</span>
+                  </div>
+                  <span>10 x Presets. Released in 2018</span>
+                </div>
+              </div>
+            </label>
+            <label for="three" class="box py-2 third">
+              <div class="d-flex">
+                <span class="circle"></span>
+                <div class="course">
+                  <div
+                    class="d-flex align-items-center justify-content-between mb-2"
+                  >
+                    <span class="fw-bold"> Collection 01 </span>
+                    <span class="fas fa-dollar-sign">29</span>
+                  </div>
+                  <span>10 x Presets. Released in 2018</span>
+                </div>
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="box-2">
+        <div class="box-inner-2">
+          <div>
+            <p class="fw-bold">Payment Details</p>
+            <p class="dis mb-3">
+              Complete your purchase by providing your payment details
+            </p>
+          </div>
+          <form action="">
+            <div class="mb-3">
+              <p class="dis fw-bold mb-2">Email address</p>
+              <input
+                class="form-control"
+                type="email"
+                value="Email"
+              />
+            </div>
+            <div>
+              <p class="dis fw-bold mb-2">Card details</p>
+              <div
+                class="d-flex align-items-center justify-content-between card-atm border rounded"
+              >
+                <div class="fab fa-cc-visa ps-3"></div>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Card Details"
+                />
+                <div class="d-flex w-50">
+                  <input
+                    type="text"
+                    class="form-control px-0"
+                    placeholder="MM/YY"
+                  />
+                  <input
+                    type="password"
+                    maxlength="3"
+                    class="form-control px-0"
+                    placeholder="CVV"
+                  />
+                </div>
+              </div>
+              <div class="my-3 cardname">
+                <p class="dis fw-bold mb-2">Cardholder name</p>
+                <input class="form-control" type="text" />
+              </div>
+              <div class="address">
+                <p class="dis fw-bold mb-3">Billing address</p>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected hidden>United States</option>
+                  <option value="1">India</option>
+                  <option value="2">Australia</option>
+                  <option value="3">Canada</option>
+                </select>
+                <div class="d-flex">
+                  <input
+                    class="form-control zip"
+                    type="text"
+                    placeholder="ZIP"
+                  />
+                  <input
+                    class="form-control state"
+                    type="text"
+                    placeholder="State"
+                  />
+                </div>
+                <div class="my-3">
+                  <p class="dis fw-bold mb-2">VAT Number</p>
+                  <div class="inputWithcheck">
+                    <input
+                      class="form-control"
+                      type="text"
+                      value="GB012345B9"
+                    />
+                    <span class="fas fa-check"></span>
+                  </div>
+                </div>
+                <div class="d-flex flex-column dis">
+                  <div
+                    class="d-flex align-items-center justify-content-between mb-2"
+                  >
+                    <p>Subtotal</p>
+                    <p><span class="fas fa-dollar-sign"></span>33.00</p>
+                  </div>
+                  <div
+                    class="d-flex align-items-center justify-content-between mb-2"
+                  >
+                    <p>VAT<span>(20%)</span></p>
+                    <p><span class="fas fa-dollar-sign"></span>2.80</p>
+                  </div>
+                  <div
+                    class="d-flex align-items-center justify-content-between mb-2"
+                  >
+                    <p class="fw-bold">Total</p>
+                    <p class="fw-bold">
+                      <span class="fas fa-dollar-sign"></span>35.80
+                    </p>
+                  </div>
+                  <div class="btn btn-primary mt-2">
+                    Pay<span class="fas fa-dollar-sign px-1"></span>35.80
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Footer  -->
+    <footer class="custom_container footer_section mt-5">
+      <!-- row -->
+      <div class="row">
+        <!-- Col -->
+        <div class="col">
+          <!-- div box -->
+          <div class="box d-flex flex-column justify-content-evenly gap-10">
+            <div class="d-flex justify-content-start gap-2 fs-2">
+              <i class="fa-solid fa-car"></i>
+              <h2 class="">Car Rental</h2>
+            </div>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+              doloremque repudiandae deleniti mollitia libero! Mollitia ducimus
+              odit, maxime excepturi, labore consequatur recusandae ab animi
+              totam officiis itaque praesentium quos ullam?
+            </p>
+
+            <div class="icons d-flex justify-content-evenly">
+              <i class="fa-brands fa-facebook fs-1 pointer"></i>
+              <i class="fa-brands fa-instagram fs-1"></i>
+              <i class="fa-brands fa-twitter fs-1"></i>
+              <i class="fa-brands fa-youtube fs-1"></i>
+            </div>
+          </div>
+        </div>
+        <!-- Col -->
+        <!-- Col -->
+        <div class="col">
+          <!-- div box -->
+          <div class="box d-flex flex-column justify-content-evenly gap-10">
+            <div class="d-flex justify-content-start gap-2 fs-2">
+              <i class="fa-solid fa-envelope"></i>
+              <h2 class="fs-6">Email<br />email@gmail.com</h2>
+            </div>
+
+            <div class="d-flex flex-column align-items-start">
+              <h3>Vehicles</h3>
+
+              <ul class="icons d-flex flex-column align-items-start">
+                <li class="">Sedan</li>
+                <li class="">Cabrilot</li>
+                <li class="">Pick up</li>
+                <li class="">Minivan</li>
+                <li class="">SUV</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Col -->
+        <!-- Col -->
+        <div class="col">
+          <!-- div box -->
+          <div class="box d-flex flex-column justify-content-evenly gap-10">
+            <div class="d-flex justify-content-start gap-2 fs-2">
+              <i class="fa-solid fa-location-crosshairs"></i>
+              <h2 class="fs-6">Address<br />Oxford Ave,Cary NC 27511</h2>
+            </div>
+
+            <div class="d-flex flex-column align-items-start">
+              <h3>Usefull links</h3>
+
+              <ul class="icons d-flex flex-column align-items-start">
+                <li class="">About Us</li>
+                <li class="">Contact Us</li>
+                <li class="">Gallery</li>
+                <li class="">Blog</li>
+                <li class="">F.A.Q</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Col -->
+        <div class="col">
+          <!-- div box -->
+          <div class="box d-flex flex-column justify-content-evenly gap-10">
+            <div class="d-flex justify-content-start gap-2 fs-2">
+              <i class="fa-solid fa-phone"></i>
+              <h2 class="fs-6">Phone<br />+92389239</h2>
+            </div>
+
+            <h3>Downlod APP</h3>
+
+            <div class="images">
+              <div class="img width_10">
+                <img src="/app.png" alt="" width="100%" />
+              </div>
+              <div class="img width_10">
+                <img src="play.png" alt="" width="100%" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Col -->
+      </div>
+
+      <!-- Copyright -->
+      <div class="copyright">
+        <p class="text-center fs-5 mt-3">
+          @Copyright Car Rental 2024 - Design by Wala loog
+        </p>
+      </div>
+    </footer>
+    <!-- Bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
